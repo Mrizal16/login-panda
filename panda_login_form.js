@@ -31,7 +31,6 @@ let normalHandStyle = () => {
     `;
 };
 
-//When clicked on username input
 usernameRef.addEventListener("focus", () => {
   eyeL.style.cssText = `
     left: 0.75em;
