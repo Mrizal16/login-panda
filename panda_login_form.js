@@ -61,7 +61,6 @@ passwordRef.addEventListener("focus", () => {
   normalEyeStyle();
 });
 
-//When clicked outside username and password input
 document.addEventListener("click", (e) => {
   let clickedElem = e.target;
   if (clickedElem != usernameRef && clickedElem != passwordRef) {
