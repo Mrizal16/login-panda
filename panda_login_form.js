@@ -44,7 +44,6 @@ usernameRef.addEventListener("focus", () => {
   normalHandStyle();
 });
 
-//When clicked on password input
 passwordRef.addEventListener("focus", () => {
   handL.style.cssText = `
         height: 6.56em;
